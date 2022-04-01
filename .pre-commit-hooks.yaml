@@ -2,7 +2,7 @@
 - id: npm-groovy-lint
   name: Lint groovy files
   description: Groovy & Jenkinsfile Linter
-  entry: npm-groovy-lint --output txt
+  entry: npm-groovy-lint --output txt --failon error
   language: node
   types: [groovy]
 - id: format-npm-groovy-lint
